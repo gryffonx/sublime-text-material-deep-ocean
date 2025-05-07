@@ -1,0 +1,96 @@
+{
+	"extends": "Default.sublime-theme",
+	"variables":
+	{
+		"base_hue": "#090B10",
+		"base_tint": "white",
+
+		"ui_bg": "#090B10",
+		"text_fg": "#4B526D",
+		"link_fg": "red",
+
+		"button_bg": "#717CB480",
+
+		"button_label_shadow": "transparent",
+
+		"sidebar_bg": "#090B10",
+		"sidebar_row_selected": "#717CB480",
+
+		"sidebar_heading": "#84ffff",
+		"sidebar_heading_shadow": "transparent",
+		"sidebar_label": "#8F93A2",
+		"sidebar_label_selected": "#FFFFFF",
+		"sidebar_label_ignored": "#464B5D",
+
+		"sidebar_scroll_bar_bg": "#84ffff",
+		"sidebar_scroll_bar_puck_bg": "#84ffff",
+
+		"panel_bg": "var(ui_bg)",
+
+		"progress_bar_fg": "#84ffff",
+
+		"dialog_button_bg": "red",
+
+		"icon_button_highlight": "#717CB480",
+
+		"tool_tip_bg": "#1F2233",
+		"tool_tip_fg": "#FFFFFF",
+
+		"tabset_dark_tint_mod": "#0F111A",
+		"tabset_dark_bg": "#0F111A",
+		"tabset_medium_dark_tint_mod": "#0F111A",
+		"tabset_medium_dark_bg": "#0F111A",
+		"tabset_medium_tint_mod": "#0F111A",
+		"tabset_medium_bg": "#0F111A",
+		"tabset_light_tint_mod": "#0F111A",
+		"tabset_light_bg": "#0F111A",
+
+		"overlay_bg": "var(ui_bg)",
+
+		"quick_panel_label_color": "#8F93A2",
+		"quick_panel_path_label_color": "#8F93A2",
+		"quick_panel_matched_label_color": "#8F93A2",
+		"quick_panel_matched_path_label_color": "#8F93A2",
+
+		"quick_panel_selected_row_bg": "#717CB480",
+		"quick_panel_selected_label_color": "#FFFFFF",
+		"quick_panel_selected_path_label_color": "#FFFFFF",
+		"quick_panel_selected_matched_label_color": "#FFFFFF",
+		"quick_panel_selected_matched_path_label_color": "#FFFFFF",
+
+		"status_bar_bg": "var(ui_bg)",
+		"status_bar_label_shadow": "transparent",
+
+		// The angled styles aren't great, but preserved since it is easier
+		// to tweak them a little than prevent the "angled" style rules from
+		// applying
+		"file_tab_angled_unselected_dark_tint": "orange",
+		"file_tab_angled_unselected_medium_dark_tint": "orange",
+		"file_tab_angled_unselected_medium_tint": "orange",
+		"file_tab_angled_unselected_light_tint": "orange",
+
+		"file_tab_angled_unselected_label_color": "cyan",
+		"file_tab_angled_unselected_label_shadow": "cyan",
+		"file_tab_angled_unselected_medium_label_color": "cyan",
+		"file_tab_angled_unselected_medium_label_shadow": "cyan",
+		"file_tab_angled_unselected_light_label_color": "cyan",
+		"file_tab_angled_unselected_light_label_shadow": "cyan",
+
+		// Radio buttons
+		"radio_back": "var(--background)",
+		"radio_selected": "var(--bluish)",
+		"radio_border-selected": "var(--bluish)",
+
+		// Checkbox buttons
+		"checkbox_back": "var(--background)",
+		"checkbox_selected": "var(--bluish)",
+		"checkbox_border-selected": "var(--bluish)",
+	},
+	"rules":
+	[
+		{
+			"class": "title_bar",
+			"style": "dark"
+		},
+	]
+}
